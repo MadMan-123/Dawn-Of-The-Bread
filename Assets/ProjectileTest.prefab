@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4752018760946183886}
   - component: {fileID: 4752018760946183887}
   - component: {fileID: 4752018760946183880}
+  - component: {fileID: 2159962892013004862}
   m_Layer: 0
   m_Name: ProjectileTest
   m_TagString: Untagged
@@ -46,9 +47,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  speed: 5
-  lifetime: 10
-  bIsPlayer: 0
+  speed: 10
+  lifetime: 5
+  vDirection: {x: 0, y: 0}
+  bIsPlayer: 1
 --- !u!212 &4752018760946183880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -101,3 +103,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &2159962892013004862
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4752018760946183885}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
