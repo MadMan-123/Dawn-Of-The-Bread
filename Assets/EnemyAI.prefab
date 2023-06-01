@@ -222,16 +222,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fWalkWaitTime: 5
   rb: {fileID: 7343538446825103737}
-  fSpeed: 10
+  fSpeed: 15
   fAttackDistance: 1.5
   fCheckDistance: 5
   _CurrentState: {fileID: 7343538446825103730}
-  bIsBoss: 0
   _handler: {fileID: 7343538446825103734}
   Dir: {x: 0, y: 0}
-  IgnoreLayer:
+  CheckLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!114 &7343538446825103734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,6 +266,7 @@ MonoBehaviour:
   UI: {fileID: 0}
   bIsplayer: 0
   bShouldSetActive: 1
+  bIsGod: 0
 --- !u!95 &7343538446825103741
 Animator:
   serializedVersion: 5
