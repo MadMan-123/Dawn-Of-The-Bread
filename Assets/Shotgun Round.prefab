@@ -51,6 +51,7 @@ MonoBehaviour:
   lifetime: 5
   vDirection: {x: 0, y: 0}
   bIsPlayer: 1
+  ShotNoise: {fileID: 8300000, guid: 2c1214be35b31cb4ea3ccf6e42161790, type: 3}
 --- !u!212 &3836523785462785340
 SpriteRenderer:
   m_ObjectHideFlags: 0
