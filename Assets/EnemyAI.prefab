@@ -88,15 +88,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7343538446825103728}
-  m_LocalRotation: {x: 0, y: -0, z: -0.0023161368, w: 0.9999973}
-  m_LocalPosition: {x: 6.75, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7343538446595050708}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7343538446825103732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -227,6 +227,7 @@ MonoBehaviour:
   fCheckDistance: 5
   _CurrentState: {fileID: 7343538446825103730}
   _handler: {fileID: 7343538446825103734}
+  fCheckForObjDistance: 2
   Dir: {x: 0, y: 0}
   CheckLayer:
     serializedVersion: 2
@@ -261,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e57cea300c4c2e4b83ae75bc1cb87fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fMaxHealth: 100
+  fMaxHealth: 50
   fCurrentHealth: 0
   UI: {fileID: 0}
   bIsplayer: 0
@@ -309,3 +310,8 @@ MonoBehaviour:
   rbCache: {fileID: 7343538446825103737}
   bIsPlayer: 0
   enemyAI: {fileID: 7343538446825103731}
+  GunPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
